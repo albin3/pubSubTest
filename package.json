@@ -1,0 +1,19 @@
+{
+  "name": "pubSubTest",
+  "version": "0.0.0",
+  "description": "对ioredis/node_redis的pub/sub进行压力测试",
+  "main": "bench_io.js",
+  "scripts": {
+    "test": "node bench_io"
+  },
+  "keywords": [
+    "ioredis",
+    "node_redis",
+    "bench",
+    "test",
+    "publish",
+    "subscribe"
+  ],
+  "author": "",
+  "license": "MIT"
+}
