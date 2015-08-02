@@ -14,10 +14,12 @@
 ## 测试方案
 
 测试publish
+
 1. 启动ioredis/node_redis的subscriber并`每十秒打印一次平均执行结果`;
 2. 分别启动一个publisher进程，从subscriber看每秒发布的消息数;
 
 测试subscribe
+
 1. 启动ioredis/node_redis的subscriber并`每十秒打印一次平均执行结果`;
 2. 启动多个publisher进程，保证publish速度比subscribe快，从subscriber看每秒接收消息数;
 
