@@ -2,14 +2,14 @@
 
 ## 版本信息
 
-node_redis: 0.12.1
-ioredis: 1.7.2
+- node_redis: 0.12.1
+- ioredis: 1.7.2
 
 ## 设备信息
 
-OS: OSX 10.10.4
-CPU: 2.4 GHz Intel Core i5
-内存: 8 GB 1600 MHz DDR3
+- OS: OSX 10.10.4
+- CPU: 2.4 GHz Intel Core i5
+- 内存: 8 GB 1600 MHz DDR3
 
 ## 测试方案
 
@@ -27,7 +27,7 @@ CPU: 2.4 GHz Intel Core i5
 
 命令：
 (这里publish没达到subscribe的瓶颈，所以用哪个subscriber没关系)
-```
+```sh
 $node iopublisher
 $node iosubscriber > result/io_publish
 &
@@ -45,7 +45,7 @@ $node ndsubscriber > result/nd_publish
 **subscribe**
 
 命令：
-```
+```sh
 $node bench_io > result/io_subscribe
 &
 $node bench_nd > result/nd_subscribe
