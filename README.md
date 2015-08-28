@@ -29,6 +29,7 @@
 
 命令：
 (这里publish没达到subscribe的瓶颈，所以用哪个subscriber没关系)
+
 ```sh
 $node iopublisher
 $node iosubscriber > result/io_publish
@@ -47,6 +48,7 @@ $node ndsubscriber > result/nd_publish
 **subscribe**
 
 命令：
+
 ```sh
 $node bench_io > result/io_subscribe
 &
